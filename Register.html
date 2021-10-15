@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="Register.css">
+    <link rel="StyleSheet" type="text/css" href="Home.Css">
+</head>
+<body>
+    <div id="TOP">
+        <a href="Home.html"><img src="images/logo1.gif" id="Logo"></a>
+            <br><br><br><br><br><br><br>
+        </div>
+        <div>
+            <ul>
+                <li><b><a href="Home.html" class="NavBar">Home</a></b></li>
+                <li><div class="Droping"><button href="#" class="DD">Product</button>
+                    <div class="DropDown">
+                        <b><a href="Product.html" class="DropD">Family Car</a></b>
+                        <b><a href="#" class="DropD">Commercial Car</a></b>
+                        <b><a href="#" class="DropD">Luxury Car</a></b>
+                    </div></div>
+                    </li>
+                <li><b><a href="Contact.html" class="NavBar">Contact</a></b></li>
+            </ul>
+        </div>
+        <center><h1>Register</h1>
+            <form action="#" method="GET" onsubmit="return validate()" name="Regis" class="Register">
+                <div>
+                    <span><h3>Name:</h3></span>
+                    <span><input type="text" name="Nama" id="txtNama" class="Input" ></span><br>
+                    <span class="error" id="errNama"></span>
+                </div>
+                
+                <div>
+                    <span><h3>Email:</h3></span>
+                    <span><input type="email" name="Email" id="txtEmail" class="Input" ></span><br>
+                    <span class="error" id="errEmail"></span>
+                </div>
+                <div>
+                    <span><h3>Password</h3></span>
+                    <span><input type="text" name="Password" id="txtPass" class="Input" ></span><br>
+                    <span class="error" id="errPass"></span>
+                </div>
+                <div>
+                    <span><h3>Gender</h3></span>
+                    <span><input type="radio" name="GEN" id="radioM" class="Gender">Male</span>
+                    <span><input type="radio" name="GEN" id="radioF" >Female</span><br>
+                    <span class="error" id="errGen"></span>
+                </div>
+                <div>
+                    <span><h3>City</h3></span>
+                    <span><select id="City" class="Input" >
+                            <option value="">--Select one--</option>
+                            <option value="1">Jakarta</option>
+                            <option value="2">Bandung</option>
+                            <option value="3">Surabaya</option>
+                            <option value="4">Medan</option>
+                        </select>
+                    </span><br>
+                    <span class="error" id="errCity"></span>
+                </div>
+                <div>
+                    <span><h3>Address</h3></span>
+                    <span><textarea class="Input" id="txtAdd" ></textarea></span><br>
+                    <span class="error" id="errAdd"></span>
+                </div>
+                <br><br>
+                <input type="submit" value="Register" id="Submit"><br><br>
+            </form>
+        </center>
+        <div class="Atas_Footer">
+            <a href="#"><img src="images/instagram.png"></a>
+            <a href="#"><img src="images/youtube.png"></a>
+            <a href="#"><img src="images/twitter.png"></a>
+            <a href="#"><img src="images/facebook.png"></a>
+        </div>
+        
+        <div class="Samping_Atas_Footer">
+            Subscribe Our NewsLetter
+                <p><input type="text" placeholder="           Your Email" id="SubsR"></input></p>
+                <p><a href="#" id="Subs">Subscribe</a></p>
+            </div><br><br>
+        <script src="Register.js"></script>
+        <footer>@Copyright 2018 by [Gary Sundjaja]</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    <link rel="StyleSheet" type="text/css" href="Home.Css">
+</head>
+<body>
+    <div id="TOP">
+        <a href="Home.html"><img src="images/logo1.gif" id="Logo"></a>
+            <br><br><br><br><br><br><br>
+        </div>
+        <div>
+            <ul>
+                <li><b><a href="Home.html" class="NavBar">Home</a></b></li>
+                <li><div class="Droping"><button href="#" class="DD">Product</button>
+                    <div class="DropDown">
+                        <b><a href="Product.html" class="DropD">Family Car</a></b>
+                        <b><a href="#" class="DropD">Commercial Car</a></b>
+                        <b><a href="#" class="DropD">Luxury Car</a></b>
+                    </div></div>
+                    </li>
+                <li><b><a href="Contact.html" class="NavBar">Contact</a></b></li>
+            </ul>
+        </div>
+    <center><div>
+        <h1>Login</h1>
+        <form action="#" method="GET" onsubmit="return validate()" name="Login" class="Login">
+            <div>
+                <span><h3>Email</h3></span>
+                <span><input type="email" name="Email" id="txtemail" class="Logins" ></span><br>
+                <span class="error" id="errEmail"></span>
+            </div>
+            <div>
+                <span><h3>Password</h3></span>
+                <span><input type="password" name="Password" id="txtpass"  class="Logins" ></span><br>
+                <span class="error" id="errPass"></span>
+            </div>
+            <br>
+            <input type="submit" value="Login" id="Submit">
+        </form>
+        
+        <h4>Dont have an account? Register <a href="Register.html">here!</a></h4>
+    </div></center>
+    <br><br>
+    <div class="Atas_Footer">
+        <a href="#"><img src="images/instagram.png"></a>
+        <a href="#"><img src="images/youtube.png"></a>
+        <a href="#"><img src="images/twitter.png"></a>
+        <a href="#"><img src="images/facebook.png"></a>
+    </div>
+    
+    <div class="Samping_Atas_Footer">
+        Subscribe Our NewsLetter
+            <p><input type="text" placeholder="           Your Email" id="SubsR"></input></p>
+            <p><a href="#" id="Subs">Subscribe</a></p>
+        </div><br><br>
+    <script src="Login.js"></script>
+    <footer id="FootLogin">@Copyright 2018 by [Gary Sundjaja]</footer>
+
+</body>
+</html>

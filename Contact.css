@@ -1,0 +1,78 @@
+#Kotak-Kiri{
+    margin-left: 3%;
+    margin-right: 17%;
+    background-color: whitesmoke;
+    float: left;
+
+}
+
+.Text-Kiri{
+    width: 250%;
+    height: 15px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+}
+
+#Kotak-Kiri b{
+    
+    background-color: whitesmoke;
+}
+
+.Kotak-Contact{
+    margin-left: 22.5%;
+    width: 100%;
+    /* padding-right: 40%; */
+    /* background-color: saddlebrown; */
+}
+
+#Kotak-Contact{
+    width: 35% ;
+    padding-bottom: 20%;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 2%;
+    float: right;
+}
+.Button{
+    margin-top: 1230px;
+    text-decoration: none;
+    margin-left: 83%;
+    color: white;
+    background-color: royalblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#Kotak-CONT{
+    background-color: whitesmoke;
+    padding-bottom: 2%;
+
+}
+
+.Back-Contact{
+    background-color: whitesmoke;
+    max-width: 55%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+}
+
+.Contact-kanan {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#Face{
+    color: blue;
+    text-decoration: none;
+}
+
+.Contact-Contact{
+    font-size: 40px;
+}
